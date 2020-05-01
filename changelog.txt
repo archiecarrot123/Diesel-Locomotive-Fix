@@ -1,0 +1,48 @@
+---------------------------------------------------------------------------------------------------
+Version: 0.3.2
+Date: 2020/08/03
+  Changes:
+    - Fuel icons now only show light and heavy oil
+---------------------------------------------------------------------------------------------------
+Version: 0.3.1
+Date: 2020/29/01
+  Changes:
+    - Updated to Factorio 0.18.2 (mipmap error was caused)
+---------------------------------------------------------------------------------------------------
+Version: 0.3.0
+Date: 2020/28/01
+  Changes:
+    - Updated to Factorio 0.18
+---------------------------------------------------------------------------------------------------
+Version: 0.2.3
+Date: 2019/17/07
+  Balance:
+    - Rebalanced heavy oil fuel value
+  Bugfixes:
+    - Fixed a bug that prevented the changelog from actually showing
+---------------------------------------------------------------------------------------------------
+Version: 0.2.2
+Date: 2019/12/07
+  Changes:
+    - Added change log
+  Bugfixes:
+    - Added a workaround to deal with the God-controller's inventory to prevent crashing
+---------------------------------------------------------------------------------------------------
+Version: 0.2.1
+Date: 2019/11/07
+  Bugfixes:
+    - Fixed error on load when used with mods that add the next_upgrade property to storage tanks.
+---------------------------------------------------------------------------------------------------
+Version: 0.2.0
+Date: 2019/10/07
+  Changes:
+    - Updated to Factorio 0.17
+    - Reduced number of fluid tanks on the locomotive to 1
+    - Crude oil removed as valid fuel type
+    - Added settings for:
+      - Swapping graphics between vanilla and mod added locomotives
+      - Choosing default fuel type(s)
+      - If diesel fuel (if added by another mod) should be used
+    - Increased reliability of locomotive fluid tank alignment to pumps
+    - Tweaked balance of locomotive fluid tank capacity and used fuel values
+    - Added mod interface to allow other mods to add fluid consuming locomotives of their own
