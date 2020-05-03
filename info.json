@@ -1,11 +1,11 @@
 {
 	"name": "Diesel-Locomotive-Fix",
-	"version": "0.3.3",
+	"version": "0.3.4",
 	"title": "Diesel Locomotive fix for 0.18",
 	"author": "evildogbot100, FuryoftheStars, fix - archiehalliwell",
 	"contact": "",
 	"homepage": "https://github.com/archiecarrot123/Diesel-Locomotive-Fix",
-	"description": "Deprecated by: https://mods.factorio.com/mod/dieselTrains    Adds functionality and a locomotive for using fluids as fuel.  Can use heavy oil, light oil, or diesel (if added by another mod), or all three.  Incompatible with some mods that add fluids and use a non-64x64 icon.  Configurable in Settings -> Mod Settings.  Fixed for 0.18",
+	"description": "Deprecated by: https://mods.factorio.com/mod/dieselTrains  (no migration needed)    Adds functionality and a locomotive for using fluids as fuel.  Can use heavy oil, light oil, or diesel (if added by another mod), or all three.  Incompatible with some mods that add fluids and use a non-64x64 icon.  Configurable in Settings -> Mod Settings.  Fixed for 0.18",
 	"factorio_version": "0.18",
-	"dependencies": []
+	"dependencies": ["base>=0.18", "? dieselTrains"]
 }
